@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+    font-family: cursive;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+
+width: 100%;
+height: auto;
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+.flex-box{
+    display: flex;
+    background: red;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
